@@ -1,0 +1,9 @@
+Run the launch
+
+ros2 launch siyi_zt30_cam siyi_zt30_camera_launch.py
+
+
+
+Capture a photo via ROS 2 service
+
+ros2 service call /capture_photo std_srvs/srv/Trigger
