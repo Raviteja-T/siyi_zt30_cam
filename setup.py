@@ -2,12 +2,12 @@ import os
 from glob import glob
 from setuptools import setup
 
-package_name = 'siyi_zt30_cam'
+package_name = 'siyi_zt30_cam'  # Update this to match the actual package folder name
 
 setup(
     name=package_name,
     version='0.1.0',
-    packages=[package_name],
+    packages=[package_name],  # This should match the package folder
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
@@ -27,3 +27,4 @@ setup(
         ],
     },
 )
+
